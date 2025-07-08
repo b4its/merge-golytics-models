@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.DS_Store
+.ipynb_checkpoints/
+
+# Output directories
+output/
+output/plot/
+output/forecast/
+output/model_summary/
+output/accuracy_analysis/
+
+# Model files
+models/
+*.pkl
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini 

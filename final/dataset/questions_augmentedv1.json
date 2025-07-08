@@ -1,0 +1,92 @@
+[
+  {
+    "text": "Berapa keuntungan saya hari ini?",
+    "intent": "tanya_profit",
+    "entities": {
+      "waktu": "hari_ini"
+    }
+  },
+  {
+    "text": "Berapa profit saya hari ini?",
+    "intent": "tanya_profit",
+    "entities": {
+      "waktu": "hari_ini",
+      "target": "keuntungan"
+    }
+  },
+  {
+    "text": "Berapa pendapatan saya hari ini?",
+    "intent": "tanya_profit",
+    "entities": {
+      "waktu": "hari_ini",
+      "target": "keuntungan"
+    }
+  },
+  {
+    "text": "Berapa hasil saya hari ini?",
+    "intent": "tanya_profit",
+    "entities": {
+      "waktu": "hari_ini",
+      "target": "keuntungan"
+    }
+  },
+  {
+    "text": "Berapa keuntungan saya sekarang?",
+    "intent": "tanya_profit",
+    "entities": {
+      "waktu": "hari_ini"
+    }
+  },
+  {
+    "text": "Berapa keuntungan saya per hari ini?",
+    "intent": "tanya_profit",
+    "entities": {
+      "waktu": "hari_ini"
+    }
+  },
+  {
+    "text": "Apakah saya mengalami kerugian minggu ini?",
+    "intent": "tanya_rugi",
+    "entities": {
+      "waktu": "minggu_ini"
+    }
+  },
+  {
+    "text": "Apakah saya mengalami rugi minggu ini?",
+    "intent": "tanya_rugi",
+    "entities": {
+      "waktu": "minggu_ini",
+      "target": "kerugian"
+    }
+  },
+  {
+    "text": "Apakah saya mengalami defisit minggu ini?",
+    "intent": "tanya_rugi",
+    "entities": {
+      "waktu": "minggu_ini",
+      "target": "kerugian"
+    }
+  },
+  {
+    "text": "Apakah saya mengalami negatif minggu ini?",
+    "intent": "tanya_rugi",
+    "entities": {
+      "waktu": "minggu_ini",
+      "target": "kerugian"
+    }
+  },
+  {
+    "text": "Apakah saya mengalami kerugian 7 hari terakhir?",
+    "intent": "tanya_rugi",
+    "entities": {
+      "waktu": "minggu_ini"
+    }
+  },
+  {
+    "text": "Apakah saya mengalami kerugian sepekan ini?",
+    "intent": "tanya_rugi",
+    "entities": {
+      "waktu": "minggu_ini"
+    }
+  }
+]
